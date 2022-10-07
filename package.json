@@ -5,6 +5,10 @@
   "author": "hiep",
   "private": false,
   "license": "UNLICENSED",
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0 || ^16.17.1",
+    "npm": ">=6.14.12 || >=8.15.0"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -60,7 +64,7 @@
     "@types/node": "^16.0.0",
     "@types/passport-local": "^1.0.34",
     "@types/supertest": "^2.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
