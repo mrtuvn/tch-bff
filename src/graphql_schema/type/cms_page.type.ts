@@ -1,6 +1,6 @@
 import { Field, ObjectType, Int } from '@nestjs/graphql';
 import { CmsBlock } from './cms_block.type';
-import { CmsPageBlockContent } from "./cms_page_block_content.typs";
+import { CmsPageBlockContent } from "./cms_page_block_content.type";
 
 @ObjectType()
 export class CmsPage {

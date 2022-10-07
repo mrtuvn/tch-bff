@@ -1,5 +1,5 @@
 import { Field, ObjectType, Int } from '@nestjs/graphql';
-import { CmsBlockImageContent } from 'src/graphql_schema/type/cms_block_image_content.type';
+import { CmsBlockImageContent } from './cms_block_image_content.type';
 import { BlockContentArticle } from "./cms_content_article.type";
 
 @ObjectType()
